@@ -1,0 +1,116 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+#logo{
+	font-family: 'Montez', cursive; 
+	font-size:5em; 
+	color: white;
+	padding:20px 20px 50px 20px;
+	text-align:center;
+}
+
+.sidebar{
+	background-image:url("pattern.png");
+	background-repeat: repeat;
+	padding-bottom:2000px;
+}
+
+.menu{
+	width: 60%;
+	margin:0 auto;
+}
+
+.menu p{
+	color: white !important;
+}
+
+.menu p a{
+	font-size:1.5em;
+	padding:5px;
+	display:block;
+	text-align:center;
+	background:white ;
+	opacity: .3;
+	border-radius: 10px;
+}
+
+.menu p a:hover {
+	color:black !important;
+	opacity: .8;
+	text-decoration: none !important;
+	
+}
+
+.disclaimer{
+	color:white;
+	padding-top:200px;
+	text-align:center;
+}
+
+.body{
+	padding: 50px;
+	background: #FFFAD5;
+	padding-bottom:2000px;
+}
+
+.post{
+	background: #374140;
+	border-radius:20px;
+	color: white;
+}
+
+.post div{
+	padding:10px;
+	margin-left:20px;
+}
+
+.post div h3 {
+	font-family: 'Montez', cursive; 
+	font-size:2.5em;
+	color: white;
+}
+
+.form{
+	background: #374140;
+	border-radius:20px;
+	color: white;
+	text-align:center;
+	padding:50px 0;
+	margin-top:100px;
+}
+
+.form div{
+	display:inline-block;
+	margin:20px;
+	text-align:left;
+	font-size: 1.3em;
+}
+
+.btn-center{
+	text-align:center;
+	padding-top:10px;
+	}
+
+
+.btn  {
+	color:black;
+	font-size:1em;
+	padding:3px 20px;
+	text-align:center;
+}
+
+.input { color:#1E1E20; float:right; margin-left:20px;}
+
+.flash-danger{
+	background:#DC3522;
+	padding:15px;
+	border-radius:5px;
+}
+
+.flash-success{
+	background-color: rgba(6, 173, 55, .5);
+	padding:15px;
+	border-radius:5px;
+}
+
+
