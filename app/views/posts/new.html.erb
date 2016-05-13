@@ -1,0 +1,22 @@
+
+<div class="form">
+	<h1>New Post</h1>
+	<div>
+		<%= form_for(@post) do |f| %>
+			<p><%= render 'shared/error_messages' %></p>
+			<p>
+				<%= f.label :title %>
+				<%= f.text_field :title, class: 'input' %>
+			</p>
+
+			<p>
+				<%= f.label :body %>
+				<%= f.text_area :body, class: 'input' %>
+			</p>	<br>
+
+			<p class="btn-center">
+				<%= f.submit "Post", class: 'btn' %>
+			</p>
+		<% end %>
+	</div>
+</div>
