@@ -1,10 +1,10 @@
-<% @posts.each do |post| %>
+<% @posts.reverse.each do |post| %>
 <div class = "post" >
 	<div>
 		<h3><%= post.title %></h3>
 		<p><%= post.body %></p>
 		<% if logged_in? %>
-			<h5>Post by <b><%= current_user.name %></b></h5>
+			<h5>Post by <b><%= post.user.name %></b></h5>
 		<% else %>
 			<h5><b>Log in to view the author of post</b> </h5>
 		<% end %>
